@@ -22,8 +22,16 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Demo_APIAI.py" />
-    <Compile Include="module1.py" />
+    <Compile Include="APIImage.py" />
+    <Compile Include="APISound.py" />
     <Compile Include="SimpleTextPrediction.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Data\imgBase.png" />
+    <Content Include="Data\imgMask.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

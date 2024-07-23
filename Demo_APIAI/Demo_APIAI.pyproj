@@ -25,6 +25,7 @@
     <Compile Include="APIImage.py" />
     <Compile Include="APISound.py" />
     <Compile Include="SimpleTextPrediction.py" />
+    <Compile Include="TTS.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Data\" />

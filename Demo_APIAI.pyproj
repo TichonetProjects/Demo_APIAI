@@ -5,7 +5,8 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{71db745a-dde0-423f-bd22-c5602567fc18}</ProjectGuid>
     <ProjectHome />
-    <StartupFile>GUIPyQt.py</StartupFile>
+    <StartupFile>
+    </StartupFile>
     <SearchPath />
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
@@ -19,26 +20,20 @@
     <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Content Include="Demo_APIAI\Data\imgBase.png" />
-    <Content Include="Demo_APIAI\Data\imgMask.png" />
-    <Content Include="Demo_APIAI\gfg.png" />
-    <Content Include="Demo_APIAI\TempImageName.png" />
+    <Content Include="Data\imgBase.png" />
+    <Content Include="Data\imgMask.png" />
+    <Content Include="Data\gfg.png" />
+    <Content Include="Data\TempImageName.png" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Demo_APIAI\APIAICopilot.py" />
-    <Compile Include="Demo_APIAI\APIImage.py" />
-    <Compile Include="Demo_APIAI\APISound.py" />
-    <Compile Include="Demo_APIAI\APIText.py" />
-    <Compile Include="Demo_APIAI\APITTSandSTT.py" />
-    <Compile Include="GUIKivy.py" />
-    <Compile Include="GUIPyQt.py" />
-    <Compile Include="GUIPySide.py" />
-    <Compile Include="GUITkInter.py" />
-    <Compile Include="GUIwxPython.py" />
+    <Folder Include="Data\" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Demo_APIAI" />
-    <Folder Include="Demo_APIAI\Data" />
+    <Compile Include="APIAICopilot.py" />
+    <Compile Include="APIImage.py" />
+    <Compile Include="APISound.py" />
+    <Compile Include="APIText.py" />
+    <Compile Include="APITTSandSTT.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
 </Project>

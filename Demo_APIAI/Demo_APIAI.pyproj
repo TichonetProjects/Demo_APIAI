@@ -24,13 +24,8 @@
     <Compile Include="APIAICopilot.py" />
     <Compile Include="APIImage.py" />
     <Compile Include="APISound.py" />
-    <Compile Include="GUIKivy.py" />
-    <Compile Include="GUIPyQt.py" />
-    <Compile Include="GUIPySide.py" />
     <Compile Include="APIText.py" />
-    <Compile Include="GUITkInter.py" />
     <Compile Include="APITTSandSTT.py" />
-    <Compile Include="GUIwxPython.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Data\" />

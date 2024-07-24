@@ -9,6 +9,7 @@ from openai import OpenAI
 #   api_key=os.environ.get("CUSTOM_ENV_NAME"),
 # )
 
+# Set the API key from the environment variable
 client = OpenAI()
 
 def createText():

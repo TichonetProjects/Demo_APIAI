@@ -1,5 +1,5 @@
+# QtPy5 is a Python binding of the cross-platform GUI toolkit Qt, implemented as a Python plug-in.
 import sys
- 
 from PyQt5.QtWidgets import QApplication, QWidget, QPushButton
  
 app = QApplication(sys.argv)

@@ -27,13 +27,19 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Data\" />
+    <Folder Include="Demo_API\" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="APIAICopilot.py" />
-    <Compile Include="APIImage.py" />
-    <Compile Include="APISound.py" />
-    <Compile Include="APIText.py" />
-    <Compile Include="APITTSandSTT.py" />
+    <Compile Include="Demo_API\APIAICopilot.py" />
+    <Compile Include="Demo_API\APIImage.py" />
+    <Compile Include="Demo_API\APISound.py" />
+    <Compile Include="Demo_API\APIText.py" />
+    <Compile Include="Demo_API\APITTSandSTT.py" />
+    <Compile Include="GUIKivy.py" />
+    <Compile Include="GUIPyQt.py" />
+    <Compile Include="GUIPySide.py" />
+    <Compile Include="GUITkInter.py" />
+    <Compile Include="GUIwxPython.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
 </Project>

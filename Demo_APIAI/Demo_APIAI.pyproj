@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>4d849728-9886-4bbc-a9b7-1a6836f1401f</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>SimpleTextPrediction.py</StartupFile>
+    <StartupFile>GUIKivy.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,11 +21,16 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Demo_APIAI.py" />
+    <Compile Include="APIAICopilot.py" />
     <Compile Include="APIImage.py" />
     <Compile Include="APISound.py" />
-    <Compile Include="SimpleTextPrediction.py" />
-    <Compile Include="TTS.py" />
+    <Compile Include="GUIKivy.py" />
+    <Compile Include="GUIPyQt.py" />
+    <Compile Include="GUIPySide.py" />
+    <Compile Include="APIText.py" />
+    <Compile Include="GUITkInter.py" />
+    <Compile Include="APITTSandSTT.py" />
+    <Compile Include="GUIwxPython.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Data\" />

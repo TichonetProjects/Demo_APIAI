@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{71db745a-dde0-423f-bd22-c5602567fc18}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>GUIPyQt.py</StartupFile>
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="Demo_APIAI\Data\imgBase.png" />
+    <Content Include="Demo_APIAI\Data\imgMask.png" />
+    <Content Include="Demo_APIAI\gfg.png" />
+    <Content Include="Demo_APIAI\TempImageName.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Demo_APIAI\APIAICopilot.py" />
+    <Compile Include="Demo_APIAI\APIImage.py" />
+    <Compile Include="Demo_APIAI\APISound.py" />
+    <Compile Include="Demo_APIAI\APIText.py" />
+    <Compile Include="Demo_APIAI\APITTSandSTT.py" />
+    <Compile Include="GUIKivy.py" />
+    <Compile Include="GUIPyQt.py" />
+    <Compile Include="GUIPySide.py" />
+    <Compile Include="GUITkInter.py" />
+    <Compile Include="GUIwxPython.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Demo_APIAI" />
+    <Folder Include="Demo_APIAI\Data" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+</Project>
